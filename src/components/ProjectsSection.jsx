@@ -3,12 +3,12 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
     {
         id: 1,
-        title: "Project 1",
-        description: "Some description for Project 1",
+        title: "Calories Tracker Website",
+        description: "A simple calorie tracker that keeps track of your breakfast, lunch, dinner, aswell as snacks.",
         image: "/projects/project1.jpeg",
-        tags: ["Skill 1", "Skill 2"],
-        demoUrl: "#",
-        githubUrl: "#",
+        tags: ["HTML", "CSS", "JavaScript"],
+        demoUrl: "https://calorie-tracker-self.vercel.app/",
+        githubUrl: "https://github.com/MrStrqfe/Calorie-tracker",
     },
     {
         id: 2,
@@ -21,12 +21,12 @@ const projects = [
     },
     {
         id: 3,
-        title: "Project 3",
-        description: "Some description for Project 3",
+        title: "Dungeon RPG Game",
+        description: "A browser-based dungeon role-playing game (RPG) built using HTML, CSS, and JavaScript.",
         //image: "/path/to/image.jpg",
-        tags: ["Skill 1", "Skill 2"],
-        demoUrl: "#",
-        githubUrl: "#",
+        tags: ["HTML", "CSS", "JavaScript"],
+        demoUrl: "https://dungeon-web-game.vercel.app/",
+        githubUrl: "https://github.com/MrStrqfe/dungeon-web-game",
     }
 ];
 
