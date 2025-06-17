@@ -50,7 +50,7 @@ export const ContactSection = () => {
                                     <div>
                                         <h4 className="font-medium"> Email</h4>
                                         <a href="mailto:jensenl1435@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
-                                            jensenl1435@gmail.com
+                                            jensen5@ualberta.ca
                                         </a>
                                     </div>
                                 </div>
@@ -97,7 +97,7 @@ export const ContactSection = () => {
                             <h3 className="text-2xl font-semibold mb-6"> Send a Message</h3>
                                 <form className="space-y-6">
                                     <div>
-                                        <label htmlFor="name" className="block text-sm font-medium mb-2"> Jensen Lee</label>
+                                        <label htmlFor="name" className="block text-sm font-medium mb-2"> Your Name</label>
                                         <input 
                                         type="text" 
                                         id="name" 
@@ -109,7 +109,7 @@ export const ContactSection = () => {
                                     </div>
 
                                     <div>
-                                        <label htmlFor="name" className="block text-sm font-medium mb-2"> Your Name</label>
+                                        <label htmlFor="name" className="block text-sm font-medium mb-2"> Your Email</label>
                                         <input 
                                         type="text" 
                                         id="name" 

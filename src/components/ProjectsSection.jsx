@@ -3,17 +3,19 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
     {
         id: 1,
-        title: "Project 1",
-        description: "Some description for Project 1",
-        image: "/projects/project1.jpeg",
-        tags: ["Skill 1", "Skill 2"],
-        demoUrl: "#",
-        githubUrl: "#",
+        title: "Anime Guessing Game",
+        description: `Developed an engaging anime guessing game inspired by my favorite series,
+        with integrated API support to challenge both casual fans and seasoned anime enthusiasts.`,
+        image: "/projects/animeproject.jpeg",
+        tags: ["HTML", "CSS", "JavaScript", "Jikan API"],
+        demoUrl: "https://mrstrqfe-anime-game.vercel.app/",
+        githubUrl: "https://github.com/MrStrqfe/anime-guess-game",
     },
     {
         id: 2,
         title: "Meter's Running",
-        description: "Some description for Project 2",
+        description: `Created a fast-paced top-down driving game where players deliver passengers before time runs out. 
+        Optional zombie encounters offer cash rewards at the cost of car damage, with faster completions unlocking upgrade opportunities.`,
         image: "/projects/project2.jpg",
         tags: ["Unity", "C#"],
         demoUrl: "https://mrstrqfe.itch.io/meters-running",
@@ -21,12 +23,12 @@ const projects = [
     },
     {
         id: 3,
-        title: "Project 3",
-        description: "Some description for Project 3",
-        //image: "/path/to/image.jpg",
-        tags: ["Skill 1", "Skill 2"],
-        demoUrl: "#",
-        githubUrl: "#",
+        title: "Dungeon Web Game",
+        description: "Built a browser-based dungeon game where players upgrade weapons and health to defeat a dragon boss.",
+        image: "/projects/dungeongame.jpeg",
+        tags: ["HTML", "CSS", "JavaScript"],
+        demoUrl: "https://dungeon-web-game.vercel.app/",
+        githubUrl: "https://github.com/MrStrqfe/dungeon-web-game",
     }
 ];
 
@@ -50,7 +52,7 @@ export const ProjectsSection = () => {
                             className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
                         >
                             <div className="h-48 overflow-hidden"> 
-                                <img src={project.image} alt={project.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"/>
+                                <img src={project.image} alt={project.title} className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110"/>
                             </div>
 
                             <div className="p-6">

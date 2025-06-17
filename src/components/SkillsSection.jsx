@@ -4,11 +4,11 @@ import { useState } from "react";
 
 const skills = [
     // Frontend
-    {name: "HTML/CSS", level: 1, category: "frontend" },
-    {name: "JavaScript", level: 1, category: "frontend" },
+    {name: "HTML", level: 1, category: "frontend" },
+    {name: "CSS", level: 1, category: "frontend" },
     {name: "React", level: 2, category: "frontend" }, 
     {name: "TypeScript", level: 1, category: "frontend" },
-    {name: "Tailwind CSS", level: 1, category: "frontend" },
+    {name: "JavaScript", level: 1, category: "frontend" },
     {name: "Next.js", level: 1, category: "frontend" },
 
     // Backend
@@ -62,7 +62,9 @@ export const SkillsSection = () => {
                                 />
                             </div>
                             <div className="text-right mt-1">
-                                <span className="text-sm text-muted-foreground">{skill.level} years</span>
+                                <span className="text-sm text-muted-foreground">
+                                    {skill.level} {skill.level === 1 ? "year" : "years"}
+                                    </span>
                             </div>
                         </div>
                     </div>
